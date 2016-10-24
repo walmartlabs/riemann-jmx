@@ -7,4 +7,5 @@
                  [org.clojure/java.jmx "0.2.0"]
                  [clj-yaml "0.4.0"]
                  [riemann-clojure-client "0.2.6"]]
-  :main riemann-jmx-clj.core)
+  :main riemann-jmx-clj.core
+  :signing {:gpg-key "rgandhi@walmart.com"})
