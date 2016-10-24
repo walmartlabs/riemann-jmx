@@ -1,4 +1,4 @@
-(defproject com.walmartlabs/riemann-jmx-clj "0.1.0-SNAPSHOT"
+(defproject com.walmartlabs/riemann-jmx-clj "0.1.0"
   :description "A JMX connector to riemann"
   :url "https://github.com/walmartlabs/riemann-jmx"
   :license {:name "Eclipse Public License"
