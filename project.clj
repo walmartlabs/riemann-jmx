@@ -1,4 +1,4 @@
-(defproject com.walmartlabs/riemann-jmx-clj "0.1.0"
+(defproject com.walmartlabs/riemann-jmx-clj "0.1.1"
   :description "A JMX connector to riemann"
   :url "https://github.com/walmartlabs/riemann-jmx"
   :license {:name "Eclipse Public License"
@@ -8,4 +8,9 @@
                  [clj-yaml "0.4.0"]
                  [riemann-clojure-client "0.2.6"]]
   :main riemann-jmx-clj.core
-  :signing {:gpg-key "rgandhi@walmart.com"})
+  :plugins [[brightnorth/uberjar-deploy "1.0.1"]]
+  :signing {:gpg-key "rgandhi@walmart.com"}
+  :deploy-repositories
+  [["releases"
+    {:url     "https://clojars.org/repo"
+     :signing {:gpg-key "rgandhi@walmart.com"}}]])
